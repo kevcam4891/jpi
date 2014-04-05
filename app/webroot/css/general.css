@@ -1,0 +1,426 @@
+body {
+	background-image: url(/img/background.jpg);
+	background-repeat: no-repeat;
+	background-position: center top;
+	background-color: #F2F2F2;
+}
+body, html {
+	margin: 0px;
+	padding: 0px;
+	font-family: "Lucida Grande", "Lucida Sans Unicode", Tahoma, Helvetica, sans-serif;
+	font-size: 11px;
+}
+h2
+{
+	font-size: 16px;
+}
+a {
+	color: #006699;
+	text-decoration: none;
+}
+.clearfix {
+	overflow: hidden;
+	_overflow: visible;
+	_overflow-x:hidden;
+	_height: 0;
+}
+#LayoutContainer {
+	width: 768px;
+	margin-right: auto;
+	margin-left: auto;
+	padding-bottom: 20px;
+}
+#LayoutContainer #primary
+{
+	margin-left: -6px;
+}
+
+/* ============================================= */
+/* Navigation
+/* ============================================= */
+
+#tabs
+{
+	background: url('/img/common/nav/background.png') left bottom no-repeat;
+}
+#tabs img
+{
+	float: left;
+}
+
+
+#header {
+	height: 110px;
+	position: relative;
+}
+#header .logo {
+	position: absolute;
+	top: 10px;
+}
+#primary {
+	padding-bottom: 10px;
+}
+#secondary .seperator {
+	width: 14px;
+}
+.gallery {
+	padding: 15px 0px 15px 15px;
+}
+.gallery td {
+	padding-bottom: 15px;
+}
+.gallery td a {
+	background-color: #FFF;
+	padding: 3px;
+	border: 1px solid #CCC;
+	display: block;
+	float: left;
+}
+
+#secondary {
+	padding-bottom: 10px;
+}
+
+#secondary td {
+	vertical-align: top;
+}
+#secondary .testimonials {
+	background-image: url(/img/secondary/testimonials.gif);
+	background-position: top;
+}
+#secondary .about {
+	background-image: url(/img/secondary/about.gif);
+}
+#secondary .services .service {
+	padding-bottom: 10px;
+}
+#secondary .about .clip .clipTitle{
+	font-family: "Lucida Grande", "Lucida Sans", Tahoma, sans-serif;
+	font-weight: bold;
+	padding-bottom: 2px;
+	color: #000;
+}
+#secondary .about .clip  {
+	font-size: 10px;
+	line-height: 15px;
+	color: #666;
+	text-align: justify;
+	padding-bottom: 10px;
+}
+#secondary .about p {
+	margin-top: 0px;
+	margin-bottom: 10px;
+}
+
+
+
+#secondary  .contact {
+	background-image: url(/img/secondary/contact.gif);
+}
+#secondary .contact .title {
+	font-family: "Lucida Grande", "Lucida Sans", Tahoma, sans-serif;
+	font-weight: bold;
+	padding-bottom: 7px;
+}
+#secondary .contact .contactSection {
+	margin-bottom: 10px;
+}
+
+#secondary .contact ul {
+	margin: 0px;
+	padding: 0px;
+	list-style-type: none;
+}
+#secondary .contact ul li {
+	background-image: url(/img/home/bullet.jpg);
+	background-repeat: no-repeat;
+	padding-left: 16px;
+	background-position: 2px 10px;
+	padding-top: 3px;
+	padding-bottom: 3px;
+}
+
+#secondary .section {
+	padding-top: 40px;
+}
+#secondary .backfill {
+	background-color: #E5E5E5;
+}
+
+#secondary .section .inner {
+	padding-right: 9px;
+	padding-left: 9px;
+}
+#secondary .testimonials .testimonial .thumb {
+	float: left;
+}
+#secondary .testimonials .testimonial {
+	font-size: 10px;
+	line-height: 13px;
+	color: #333;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #d2d2d2;
+	margin-bottom: 7px;
+	padding-bottom: 7px;
+}
+#secondary .testimonials .testimonial.last {
+	margin: 0px;
+	padding: 0px;
+	border-top-style: none;
+	border-right-style: none;
+	border-bottom-style: none;
+	border-left-style: none;
+}
+#secondary .testimonials .testimonial .thumb img {
+	background-color: #FFF;
+	padding: 3px;
+	border: 1px solid #C0C0C0;
+	margin-right: 10px;
+	margin-bottom: 5px;
+}
+
+
+
+#footer .main {
+	font-size: 10px;
+	background-color: #E5E5E5;
+	border-right-width: 1px;
+	border-left-width: 1px;
+	border-right-style: solid;
+	border-left-style: solid;
+	border-right-color: #C0C0C0;
+	border-left-color: #C0C0C0;
+	padding-right: 7px;
+	padding-left: 7px;
+}
+#footer {
+	margin-top: 20px;
+	color: #555555;
+}
+
+#footer .powered {
+	text-align: right;
+}
+#employment {
+	padding: 15px;
+}
+#employment .jobTitle {
+	font-family: "Lucida Grande", "Lucida Sans", "Lucida Sans Unicode", Tahoma, sans-serif;
+	font-size: 18px;
+	font-weight: bold;
+	padding-bottom: 15px;
+	line-height: 20px;
+}
+#employment h3 {
+	font-family: "Lucida Grande", "Lucida Sans", "Lucida Sans Unicode", Tahoma, sans-serif;
+	font-size: 13px;
+	font-weight: bold;
+	line-height: 15px;
+	padding: 0px;
+	margin-bottom: 10px;
+	margin-top: 0px;
+	color: #333;
+}
+#employment .jobBlips dt{
+	clear: left;
+	float: left;
+	width: 170px;
+	padding-bottom: 6px;
+	color: #525252;
+}
+#employment .jobBlips {
+	padding-bottom: 15px;
+}
+
+#employment .jobBlips dd {
+	float: left;
+	padding-bottom: 6px;
+	width: 300px;
+}
+#employment ol li {
+	padding-top: 2px;
+	padding-bottom: 2px;
+}
+#services {
+	padding: 15px;
+}
+
+/* ============================================= */
+/* Services
+/* ============================================= */
+
+#services td {
+	vertical-align: top;
+	width: 50%;
+}
+#services p {
+	color: #333;
+	font-size: 12px;
+	line-height: 17px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+#services .service {
+	padding-bottom: 10px;
+}
+
+#services .inhome h2 {
+	background-image: url(/img/services/h2_prevoc.png);
+	background-repeat: no-repeat;
+}
+#services .residential h2 {
+	background-image: url(/img/services/h2_residential.jpg);
+	background-repeat: no-repeat;
+}
+#services .respite h2 {
+	background-image: url(/img/services/h2_respite.jpg);
+	background-repeat: no-repeat;
+}
+#services .daysupport h2 {
+	background-image: url(/img/services/h2_daysupport.jpg);
+	background-repeat: no-repeat;
+}
+#services h2 span {
+	display: none;
+}
+#services td.left {
+	padding-right: 15px;
+	border-right-width: 1px;
+	border-right-style: solid;
+	border-right-color: #CCC;
+}
+#services h2 {
+	height: 20px;
+	margin-bottom: 0px;
+	padding-bottom: 0px;
+}
+
+#services td.right {
+	padding-left: 15px;
+}
+#services .links {
+	border-top-width: 1px;
+	border-top-style: solid;
+	border-top-color: #CCC;
+	margin-top: 15px;
+	padding-top: 15px;
+}
+#services .links .title {
+	padding-bottom: 10px;
+}
+#services .links div {
+	clear: both;
+	text-align: center;
+}
+
+#services .links ul {
+	margin: 0px;
+	padding: 0px;
+	list-style-type: none;
+	text-align: center;
+}
+#services .links ul li {
+	padding-right: 10px;
+	padding-top: 2px;
+	padding-bottom: 2px;
+	background-image: url(/img/services/links_bullet.gif);
+	background-repeat: no-repeat;
+	background-position: left;
+	padding-left: 10px;
+	display: inline;
+}
+#services .links ul li.first {
+	background: none;
+	padding-left: 0px;
+}
+
+#services .links ul li a{
+
+}
+#services .links ul li a:hover {
+	text-decoration: underline;
+}
+
+/* ============================================= */
+/* Events
+/* ============================================= */
+
+#events {
+	padding: 15px;
+}
+#events .month,
+#events h2
+{
+	margin-bottom: 20px;
+	font-size: 15px;
+	font-weight: bold;
+	margin-top: 0px;
+}
+#events h3
+{
+	font-weight: normal;
+	font-size: 12px;
+	color: #333;
+	line-height: 19px;
+}
+
+
+#events .empty {
+	color: #999;
+}
+
+
+#events .leftColumn {
+	float: left;
+	width: 48%;
+	border-right-width: 1px;
+	border-right-style: solid;
+	border-right-color: #CCC;
+	padding-right: 10px;
+}
+#events .rightColumn {
+	float: right;
+	width: 48%;
+	padding-left: 10px;
+}
+#events dt {
+	font-weight: bold;
+	color: #666;
+	width: 150px;
+	clear: left;
+	float: left;
+	padding-bottom: 15px;
+	font-family: "Lucida Grande", "Lucida Sans", "Lucida Sans Unicode", Tahoma, sans-serif;
+}
+#events dd {
+	float: right;
+	width: 200px;
+	margin: 0px;
+	padding-top: 0px;
+	padding-right: 0px;
+	padding-bottom: 15px;
+	padding-left: 0px;
+}
+#events dd.aux {
+	clear: left;
+	padding-left: 150px;
+}
+
+#events dd .eventTime {
+	font-size: 10px;
+	color: #999;
+}
+
+#events dd ul
+{
+	list-style: none;
+	margin: 0px;
+	padding: 0px;
+}
+#events dd ul li
+{
+	padding: 0px;
+	margin: 0px;
+	margin-bottom: 10px;
+}

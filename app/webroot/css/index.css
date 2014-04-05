@@ -1,0 +1,100 @@
+/* Home */
+
+#SecondaryContact
+{
+	float: left;
+	width: 240px;
+}
+#SecondaryMain
+{
+	float: right;
+	width: 510px;
+}
+
+/* About */
+
+h2
+{
+	font-size: 16px;
+	line-height: 22px;
+}
+
+#About,
+#Testimonials
+{
+	font-size: 12px;
+	line-height: 17px;
+}
+
+
+
+#About
+{
+	color: #9d3c3c;
+	text-align: justify;
+}
+#About h2
+{
+	background: url('/img/home/about.png') left top no-repeat;
+	text-indent: -9999px;
+}
+#About .divider
+{
+	height: 10px;
+	margin: 20px 0px;
+	background: url('/img/home/dot-separator.png') center no-repeat;
+}
+
+
+#Testimonials
+{
+	margin-top: 30px;
+}
+#Testimonials h2
+{
+	background: url('/img/home/testimonials.png') left top no-repeat;
+	text-indent: -9999px;
+}
+#Testimonials .test .photo
+{
+	width: 105px;
+	height: 87px;
+	background: url('/img/home/photos.png') left top no-repeat;
+}
+#Testimonials .test .photo div
+{
+	width: 105px;
+	height: 87px;
+	
+}
+#Testimonials .photo
+{
+	float: left;
+}
+#Testimonials .text
+{
+	margin-left: 120px;
+}
+
+
+
+#Contact h2
+{
+	background: url('/img/home/contact.png') left top no-repeat;
+	text-indent: -9999px;
+}
+#LocationsGroup h2
+{
+	background: url('/img/home/group-locations.png') left top no-repeat;
+	text-indent: -9999px;
+}
+#LocationsDay h2
+{
+	background: url('/img/home/day-location.png') left top no-repeat;
+	text-indent: -9999px;
+}
+#LocationsVocational h2
+{
+	background: url('/img/home/title-prevoc-locations.png') left top no-repeat;
+	text-indent: -9999px;
+}
