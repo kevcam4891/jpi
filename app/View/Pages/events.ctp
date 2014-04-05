@@ -127,26 +127,28 @@
 		<div class="clearfix">
 			<div class="month">April 2014</div>
 			<?php foreach ($events as $date => $evs): ?>
-				<dt><?php
-			$d = new DateTime('2014-04-'.substr($date, 3, 2));
-			echo $d->format('l, F j');
-				?></dt>
-				<?php foreach ($evs as $ev): ?>
-					<dd>
+				<dt>
+				<?php
+				$d = new DateTime('2014-04-'.substr($date, 3, 2));
+				echo $d->format('l, F j');
+				?>
+				</dt>
+				<dd>
+					<?php foreach ($evs as $ev): ?>
 						<?php if (!empty($ev['title'])): ?>
 							<div class="eventTitle"><?php echo $ev['title'] ?></div>
 						<?php endif; ?>
 						<?php if (!empty($ev['time'])): ?>
 							<div class="eventTime"><?php echo $ev['time'] ?></div>
 						<?php endif; ?>
-					</dd>
-				<?php endforeach; ?>
+					<?php endforeach; ?>
+				</dd>
 			<?php endforeach; ?>
 		</div>
 		<div style="margin-top: 30px;">
 			<?php
-			foreach ($prev as $ev => $pr){
-				foreach ($pr[1] as $d){
+			foreach ($prev as $ev => $pr) {
+				foreach ($pr[1] as $d) {
 					$prevDates[$d] = $pr[0];
 				}
 			}
@@ -197,18 +199,6 @@
 			<dd>Day, Evening and overnight shifts working every other weekend as well as split day shifts.</dd>
 			<dt>Benefits Available:</dt>
 			<dd>Health, Vision and Dental, Life Insurance, 401 K</dd>
-			<dd>
-				<ul>
-					<li>Must be 21 years or older High School Diploma or GED </li>
-					<li>First Aid and CPR Certifications </li>
-					<li>Possession of a valid driver's license </li>
-					<li>Current driving record </li>
-					<li>Must have your own vehicle </li>
-					<li>Current & valid automobile insurance</li>
-					<li>1+ years of related care giving experience</li>
-					<li>Basic computer skills</li>
-				</ul>
-			</dd>
 			<dt>Qualifications:</dt>
 			<dd>
 				<ul>

@@ -390,16 +390,16 @@ a {
 	width: 150px;
 	clear: left;
 	float: left;
-	padding-bottom: 15px;
+	padding-bottom: 20px;
 	font-family: "Lucida Grande", "Lucida Sans", "Lucida Sans Unicode", Tahoma, sans-serif;
 }
 #events dd {
-	float: right;
+	float: left;
 	width: 200px;
 	margin: 0px;
 	padding-top: 0px;
 	padding-right: 0px;
-	padding-bottom: 15px;
+	padding-bottom: 20px;
 	padding-left: 0px;
 }
 #events dd.aux {
@@ -423,4 +423,12 @@ a {
 	padding: 0px;
 	margin: 0px;
 	margin-bottom: 10px;
+}
+#events .eventTitle
+{
+	margin-top: 20px;
+}
+#events .eventTitle:first-child
+{
+	margin-top: 0px !important;
 }
