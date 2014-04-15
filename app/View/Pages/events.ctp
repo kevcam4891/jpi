@@ -125,7 +125,7 @@
 		);
 		?>
 		<div class="clearfix">
-			<div class="month">April 2014</div>
+			<div class="month">April 2014: Residential</div>
 			<?php foreach ($events as $date => $evs): ?>
 				<dt>
 				<?php

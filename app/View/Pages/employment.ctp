@@ -7,7 +7,7 @@
 	<div class="jobBlips">
 		<div class="clearfix">
 			<dt>Reports To:</dt>
-			<dd>Residential Supervisor</dd>
+			<dd>Department Manager/Supervisor</dd>
 		</div>
 		<div class="clearfix">
 			<dt>Salary Range &amp; Benefits:</dt>
