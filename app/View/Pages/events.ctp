@@ -5,123 +5,189 @@
 <div id="events" class="clearfix">
 	<div class="leftColumn">
 		<?php
+		
 		$events = array(
-			 '04-04-2014' => array(
-				  array(
-						'title' => 'BANK for working individuals'
-				  )
-			 ),
-			 '04-05-2014' => array(
-				  array(
-						'title' => 'Alley Cats Bowling',
-						'time' => '12-2:00pm'
-				  ),
-				  array(
-						'title' => 'Little league games',
-						'time' => '1:00, 3:00, 5:00',
-						'note' => 'Bring $ for snack (school behind C2)'
-				  ),
-			 ),
-			 '04-06-2014' => array(
-				  array(
-						'title' => 'SO Spring Practice',
-						'time' => '1:30 softball/track<br/>3:00 tennis',
-						'note' => 'Oscar Smith HS',
-				  ),
-			 ),
-			 '04-08-2014' => array(
-				  array(
-						'title' => 'Take a brisk walk - weather permitting',
-				  ),
-			 ),
-			 '04-12-2014' => array(
-				  array(
-						'title' => 'SONIC 1/2 price drinks',
-				  ),
-			 ),
-			 '04-16-2014' => array(
-				  array(
-						'title' => 'Take a brisk walk - weather permitting',
-				  ),
-			 ),
-			 '04-13-2014' => array(
-				  array(
-						'title' => 'SO Spring Practice',
-						'time' => '1:30 softball/track<br/>3:00 tennis',
-						'note' => 'Oscar Smith HS',
-				  ),
-			 ),
-			 '04-18-2014' => array(
-				  array(
-						'title' => 'BANK for working individuals',
-						'time' => '2-4:00pm',
-				  )
-			 ),
-			 '04-19-2014' => array(
-				  array(
-						'title' => 'Alley Cats Bowling',
-						'time' => '12-2:00pm'
-				  ),
-			 ),
-			 '04-20-2014' => array(
-				  array(
-						'title' => 'EASTER - Attend Church',
-				  ),
-			 ),
-			 '04-22-2014' => array(
-				  array(
-						'title' => "Brianna's 21st Birthday",
-				  ),
-			 ),
-			 '04-23-2014' => array(
-				  array(
-						'title' => "A VERY SPECIAL DAY",
-				  ),
-			 ),
-			 '04-24-2014' => array(
-				  array(
-						'title' => 'Take a brisk walk - weather permitting',
-				  ),
-			 ),
-			 '04-26-2014' => array(
-				  array(
-						'title' => 'BowlAThon VA Beach',
-						'time' => '12 noon (sharp)',
-				  ),
-				  array(
-						'title' => 'Spring Fling Dance',
-						'time' => '6:30-8:30pm',
-						'note' => 'RCCC ($10)',
-				  ),
-			 ),
-			 '04-27-2014' => array(
-				  array(
-						'title' => 'SO Spring Practice',
-						'time' => '1:30 softball/track<br/>3:00 tennis',
-						'note' => 'Oscar Smith HS',
-				  ),
-			 ),
-			 '04-30-2014' => array(
-				  array(
-						'title' => 'Take a brisk walk - weather permitting',
-				  ),
-			 ),
+			 
 		);
+		
+		$events = array(
+			 '05-02-2014' => array(
+				  array(
+						'title' => 'Bowling',
+						'time' => '5:45pm',
+				  )
+			 ),
+			 '05-03-2014' => array(
+				  array(
+						'title' => 'Bowling Area Tournament',
+						'note' => 'Salem HS, Indian River AMF',
+				  )
+			 ),
+			 '05-04-2014' => array(
+				  array(
+						'title' => 'Church for individuals who attend.',
+				  ),
+				  array(
+						'title' => 'Take a walk at Oak Grove Park',
+				  ),
+				  array(
+						'title' => 'SO Practice',
+				  ),
+			 ),
+			 '05-05-2014' => array(
+				  array(
+						'title' => 'Attend kids baseball game in your back yard',
+				  ),
+			 ),
+			 '05-06-2014' => array(
+				  array(
+						'title' => 'Attend kids baseball game in your back yard',
+				  ),
+			 ),
+			 '05-07-2014' => array(
+				  array(
+						'title' => 'Attend kids baseball game in your back yard',
+				  ),
+			 ),
+			 '05-08-2014' => array(
+				  array(
+						'title' => 'Attend kids baseball game in your back yard',
+				  ),
+			 ),
+			 '05-09-2014' => array(
+				  array(
+						'title' => 'Bowling',
+						'time' => '5:45pm',
+				  )
+			 ),
+			 '05-10-2014' => array(
+				  array(
+						'title' => 'Bowling Area Tournament',
+						'note' => 'Plaza MS, Lynnhaven AMF',
+				  )
+			 ),
+			 '05-11-2014' => array(
+				  array(
+						'title' => 'Church for individuals who attend.',
+				  ),
+				  array(
+						'title' => 'SO Practice',
+				  ),
+			 ),
+			 '05-12-2014' => array(
+				  array(
+						'title' => 'Attend kids baseball game in your back yard',
+				  ),
+			 ),
+			 '05-13-2014' => array(
+				  array(
+						'title' => 'Attend kids baseball game in your back yard',
+				  ),
+			 ),
+			 '05-14-2014' => array(
+				  array(
+						'title' => 'Attend kids baseball game in your back yard',
+				  ),
+			 ),
+			 '05-15-2014' => array(
+				  array(
+						'title' => 'Attend kids baseball game in your back yard',
+				  ),
+			 ),
+			 '05-16-2014' => array(
+				  array(
+						'title' => 'Tallwood HS Fiesta Spring Prom',
+						'time' => '6:00-8:30p',
+				  ),
+			 ),
+			 '05-17-2014' => array(
+				  array(
+						'title' => 'Country and Western Dance',
+						'time' => '6:00pm (Suffolk Church)',
+				  ),
+				  array(
+						'title' => 'Tides Game',
+						'time' => '3:30/7:00',
+				  ),
+			 ),
+			 '05-18-2014' => array(
+				  array(
+						'title' => 'Church for individuals who attend.',
+				  ),
+				  array(
+						'title' => 'SO Practice',
+				  ),
+			 ),
+			 '05-19-2014' => array(
+				  array(
+						'title' => 'Attend kids baseball game in your back yard',
+				  ),
+			 ),
+			 '05-20-2014' => array(
+				  array(
+						'title' => 'Attend kids baseball game in your back yard',
+				  ),
+			 ),
+			 '05-21-2014' => array(
+				  array(
+						'title' => 'Attend kids baseball game in your back yard',
+				  ),
+			 ),
+			 '05-22-2014' => array(
+				  array(
+						'title' => 'Attend kids baseball game in your back yard',
+				  ),
+			 ),
+			 '05-23-2014' => array(
+				  array(
+						'title' => 'Client\'s Choice',
+				  ),
+			 ),
+			 '05-25-2014' => array(
+				  array(
+						'title' => 'Church for individuals who attend.',
+				  ),
+			 ),
+			 '05-26-2014' => array(
+				  array(
+						'title' => 'Memorial Day',
+				  ),
+			 ),
+			 '05-27-2014' => array(
+				  array(
+						'title' => 'Board Game of your choice',
+				  ),
+			 ),
+			 '05-28-2014' => array(
+				  array(
+						'title' => 'Trim Fingernails and toenails',
+				  ),
+			 ),
+			 '05-29-2014' => array(
+				  array(
+						'title' => 'Play Uno',
+				  ),
+			 ),
+			 '05-29-2014' => array(
+				  array(
+						'title' => 'Bowling',
+						'time' => '5:45pm',
+				  ),
+			 ),
+			 '05-30-2014' => array(
+				  array(
+						'title' => 'Mount Trashmore, Chesapeake City, OR Norfolk',
+				  ),
+			 ),
 
 		$prev = array(
-			 array('Recycling/Park', array(1, 15)),
-			 array('Nature Walk', array(2)),
-			 array('Union Mission', array(3, 10)),
-			 array('Freestyle Friday', array(4)),
-			 array('Skill Building', array(7, 9, 14, 23, 28)),
-			 array('Volunteer Meal On Wheels', array(8, 22, 29)),
-			 array('Community Walk', array(11)),
-			 array('Outing/Lunch', array(17)),
-			 array('Good Friday', array(18)),
-			 array('Easter Monday', array(21)),
-			 array('Meals on Wheels Breakfast and Union Mission', array(24)),
-			 array('Earth Day Walk', array(25)),
-			 array('Computer Challenge', array(30)),
+			 array('Recycling/Park', array(13)),
+			 array('Nature Trail', array(30)),
+			 array('Union Mission', array(8, 15, 22, 29)),
+			 array('Freestyle Friday', array(23)),
+			 array('Skill Building', array(2, 7, 9, 12, 16, 19, 21, 28)),
+			 array('Community Walk', array(14)),
+			 array('Volunteer Meal On Wheels', array(1, 6, 20, 27)),
 		);
 		?>
 		<div class="clearfix">
