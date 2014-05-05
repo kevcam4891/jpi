@@ -179,6 +179,7 @@
 						'title' => 'Mount Trashmore, Chesapeake City, OR Norfolk',
 				  ),
 			 ),
+		 );
 
 		$prev = array(
 			 array('Recycling/Park', array(13)),
