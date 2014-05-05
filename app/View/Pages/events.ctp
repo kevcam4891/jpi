@@ -190,13 +190,34 @@
 			 array('Community Walk', array(14)),
 			 array('Volunteer Meal On Wheels', array(1, 6, 20, 27)),
 		);
+
+		$day = array(
+			array('Redbox', array(1, 15, 29)),
+			array('Story Time Reading Circle', array(2)),
+			array('Make Tacos', array(5)),
+			array('Puzzles', array(6)),
+			array('Trivia', array(7, 21)),
+			array('Movie Day', array(8, 22)),
+			array('Pictionary', array(9)),
+			array('Scaveneger Hunt', array(12)),
+			array('Cooking Demo', array(13)),
+			array('Bingo for Prizes', array(14)),
+			array('Line Dance', array(16)),
+			array('Hip Hop Cardio', array(19)),
+			array('Arts and Crafts', array(20)),
+			array('Hangman', array(23)),
+			array('Happy Memorial Day (Center Closed)', array(26)),
+			array('Twister', array(27)),
+			array('Karaoke', array(28)),
+			array('Current Events', array(30)),
+		);
 		?>
 		<div class="clearfix">
-			<div class="month">April 2014: Residential</div>
+			<div class="month">May 2014: Residential</div>
 			<?php foreach ($events as $date => $evs): ?>
 				<dt>
 				<?php
-				$d = new DateTime('2014-04-'.substr($date, 3, 2));
+				$d = new DateTime('2014-05-'.substr($date, 3, 2));
 				echo $d->format('l, F j');
 				?>
 				</dt>
@@ -221,10 +242,30 @@
 			}
 			ksort($prevDates);
 			?>
-			<div class="month">April 2014: Prevocational</div>
+			<div class="month">May 2014: Prevocational</div>
 			<?php foreach ($prevDates as $pd => $title): ?>
 				<dt><?php
-			$d = new DateTime('2014-04-'.$pd);
+			$d = new DateTime('2014-05-'.$pd);
+			echo $d->format('l, F j');
+				?></dt>
+				<dd>
+					<div class="eventTitle"><?php echo $title ?></div>
+				</dd>
+			<?php endforeach; ?>
+		</div>
+		<div style="margin-top: 30px;">
+			<?php
+			foreach ($day as $ev => $pr) {
+				foreach ($pr[1] as $d) {
+					$dayDates[$d] = $pr[0];
+				}
+			}
+			ksort($dayDates);
+			?>
+			<div class="month">May 2014: Day Program</div>
+			<?php foreach ($dayDates as $pd => $title): ?>
+				<dt><?php
+			$d = new DateTime('2014-05-'.$pd);
 			echo $d->format('l, F j');
 				?></dt>
 				<dd>

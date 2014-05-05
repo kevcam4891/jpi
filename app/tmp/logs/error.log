@@ -107,3 +107,23 @@
 #6 /docroot/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest), Object(CakeResponse))
 #7 /docroot/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
 #8 {main}
+2014-05-05 13:35:17 Error: [MissingViewException] View file "/docroot/app/View/Pages/favicon.ico.ctp" is missing.
+#0 /docroot/lib/Cake/View/View.php(472): View->_getViewFileName('favicon.ico')
+#1 /docroot/lib/Cake/Controller/Controller.php(957): View->render('favicon.ico', NULL)
+#2 /docroot/app/Controller/PagesController.php(73): Controller->render('favicon.ico')
+#3 [internal function]: PagesController->display('favicon.ico')
+#4 /docroot/lib/Cake/Controller/Controller.php(485): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#5 /docroot/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#6 /docroot/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest), Object(CakeResponse))
+#7 /docroot/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2014-05-05 13:35:17 Error: [MissingViewException] View file "/docroot/app/View/Pages/favicon.ico.ctp" is missing.
+#0 /docroot/lib/Cake/View/View.php(472): View->_getViewFileName('favicon.ico')
+#1 /docroot/lib/Cake/Controller/Controller.php(957): View->render('favicon.ico', NULL)
+#2 /docroot/app/Controller/PagesController.php(73): Controller->render('favicon.ico')
+#3 [internal function]: PagesController->display('favicon.ico')
+#4 /docroot/lib/Cake/Controller/Controller.php(485): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#5 /docroot/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#6 /docroot/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest), Object(CakeResponse))
+#7 /docroot/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
