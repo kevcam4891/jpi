@@ -147,6 +147,9 @@
 				  array(
 						'title' => 'Church for individuals who attend.',
 				  ),
+				  array(
+						'title' => 'NO SO Practice',
+				  ),
 			 ),
 			 '05-26-2014' => array(
 				  array(
