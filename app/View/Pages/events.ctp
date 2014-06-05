@@ -5,222 +5,151 @@
 <div id="events" class="clearfix">
 	<div class="leftColumn">
 		<?php
-		
 		$events = array(
-			 
-		);
-		
-		$events = array(
-			 '05-02-2014' => array(
+			 '06-01' => array(
 				  array(
-						'title' => 'Bowling',
-						'time' => '5:45pm',
+						'title' => 'SO Exercise',
+						'time' => '5:00pm',
 				  )
 			 ),
-			 '05-03-2014' => array(
+			 '06-03' => array(
 				  array(
-						'title' => 'Bowling Area Tournament',
-						'note' => 'Salem HS, Indian River AMF',
+						'title' => 'Manicures',
 				  )
 			 ),
-			 '05-04-2014' => array(
+			 '06-06' => array(
 				  array(
-						'title' => 'Church for individuals who attend.',
+						'title' => 'friendAble Social Club',
 				  ),
 				  array(
-						'title' => 'Take a walk at Oak Grove Park',
+						'title' => 'Bowling State Games',
 				  ),
 				  array(
-						'title' => 'SO Practice',
-				  ),
-			 ),
-			 '05-05-2014' => array(
-				  array(
-						'title' => 'Attend kids baseball game in your back yard',
+						'title' => 'Concert Series at Town Center',
 				  ),
 			 ),
-			 '05-06-2014' => array(
+			 '06-07' => array(
 				  array(
-						'title' => 'Attend kids baseball game in your back yard',
+						'title' => 'Grills and Thrills',
+						'time' => '11:00a-1:30p',
+						'note' => '2210 Cedar Road. Bring Suit and towel.',
 				  ),
 			 ),
-			 '05-07-2014' => array(
+			 '06-08' => array(
 				  array(
-						'title' => 'Attend kids baseball game in your back yard',
+						'title' => "Attend Church",
 				  ),
-			 ),
-			 '05-08-2014' => array(
 				  array(
-						'title' => 'Attend kids baseball game in your back yard',
+						'title' => "Visit Family",
 				  ),
-			 ),
-			 '05-09-2014' => array(
 				  array(
-						'title' => 'Bowling',
-						'time' => '5:45pm',
+						'title' => 'SO Exercise',
+						'time' => '5:00pm',
 				  )
 			 ),
-			 '05-10-2014' => array(
+			 '06-11' => array(
 				  array(
-						'title' => 'Bowling Area Tournament',
-						'note' => 'Plaza MS, Lynnhaven AMF',
+						'title' => 'Play board game of your choice',
+				  ),
+			 ),
+			 '06-13' => array(
+				  array(
+						'title' => 'Bowling State Games',
+				  ),
+				  array(
+						'title' => 'Concert Series at Town Center',
+				  ),
+			 ),
+			 '06-14' => array(
+				  array(
+						'title' => 'Just People Family Fun Day',
+						'time' => '12-3p',
+						'note' => '1728 Hearthside Ct E',
+				  ),
+			 ),
+			 '06-15' => array(
+				  array(
+						'title' => "Attend Church",
+				  ),
+				  array(
+						'title' => "Visit Family",
+				  ),
+				  array(
+						'title' => 'SO Exercise',
+						'time' => '5:00pm',
 				  )
 			 ),
-			 '05-11-2014' => array(
+			 '06-17' => array(
 				  array(
-						'title' => 'Church for individuals who attend.',
-				  ),
-				  array(
-						'title' => 'SO Practice',
-				  ),
+						'title' => 'Manicures',
+				  )
 			 ),
-			 '05-12-2014' => array(
+			 '06-20' => array(
 				  array(
-						'title' => 'Attend kids baseball game in your back yard',
+						'title' => 'Special Olympics',
 				  ),
+				  array(
+						'title' => 'Dinner & Dance',
+						'time' => '6:15pm',
+						'note' => '1201 Club House Dr.'
+					),
+					array(
+						'title' => 'OR Fun Bowling'
+					)
 			 ),
-			 '05-13-2014' => array(
+			 '06-21' => array(
 				  array(
-						'title' => 'Attend kids baseball game in your back yard',
+						'title' => 'Alley Cats Bowling',
+						'note' => '$1.69 AMF CH'
 				  ),
+				  array(
+						'title' => 'First Day of Summer',
+						'note' => 'Enjoy some ice cream!',
+				  )
 			 ),
-			 '05-14-2014' => array(
-				  array(
-						'title' => 'Attend kids baseball game in your back yard',
-				  ),
-			 ),
-			 '05-15-2014' => array(
-				  array(
-						'title' => 'Attend kids baseball game in your back yard',
-				  ),
-			 ),
-			 '05-16-2014' => array(
-				  array(
-						'title' => 'Tallwood HS Fiesta Spring Prom',
-						'time' => '6:00-8:30p',
-				  ),
-			 ),
-			 '05-17-2014' => array(
-				  array(
-						'title' => 'Country and Western Dance',
-						'time' => '6:00pm (Suffolk Church)',
-				  ),
+			 '06-22' => array(
 				  array(
 						'title' => 'Tides Game',
-						'time' => '3:30/7:00',
+						'time' => '12:15pm',
+						'note' => '$5 Parking per Vehicle'
+				  ),
+				  array(
+						'title' => 'SO Exercise',
+						'time' => '5:00pm',
+				  )
+			 ),
+			 '06-25' => array(
+				  array(
+						'title' => 'Play board game of your choice',
 				  ),
 			 ),
-			 '05-18-2014' => array(
+			 '06-27' => array(
 				  array(
-						'title' => 'Church for individuals who attend.',
+						'title' => 'Concert Series',
+						'note' => 'Town Center at Greenbrier',
+						'time' => '6pm-8:30pm'
 				  ),
-				  array(
-						'title' => 'SO Practice',
-				  ),
+					array(
+						'title' => 'OR Fun Bowling'
+					)
 			 ),
-			 '05-19-2014' => array(
+			 '06-29' => array(
 				  array(
-						'title' => 'Attend kids baseball game in your back yard',
+						'title' => "Melvin's Birthday",
 				  ),
+				  array(
+						'title' => 'SO Exercise',
+						'time' => '5:00pm',
+				  )
 			 ),
-			 '05-20-2014' => array(
-				  array(
-						'title' => 'Attend kids baseball game in your back yard',
-				  ),
-			 ),
-			 '05-21-2014' => array(
-				  array(
-						'title' => 'Attend kids baseball game in your back yard',
-				  ),
-			 ),
-			 '05-22-2014' => array(
-				  array(
-						'title' => 'Attend kids baseball game in your back yard',
-				  ),
-			 ),
-			 '05-23-2014' => array(
-				  array(
-						'title' => 'Client\'s Choice',
-				  ),
-			 ),
-			 '05-25-2014' => array(
-				  array(
-						'title' => 'Church for individuals who attend.',
-				  ),
-				  array(
-						'title' => 'NO SO Practice',
-				  ),
-			 ),
-			 '05-26-2014' => array(
-				  array(
-						'title' => 'Memorial Day',
-				  ),
-			 ),
-			 '05-27-2014' => array(
-				  array(
-						'title' => 'Board Game of your choice',
-				  ),
-			 ),
-			 '05-28-2014' => array(
-				  array(
-						'title' => 'Trim Fingernails and toenails',
-				  ),
-			 ),
-			 '05-29-2014' => array(
-				  array(
-						'title' => 'Play Uno',
-				  ),
-			 ),
-			 '05-29-2014' => array(
-				  array(
-						'title' => 'Bowling',
-						'time' => '5:45pm',
-				  ),
-			 ),
-			 '05-30-2014' => array(
-				  array(
-						'title' => 'Mount Trashmore, Chesapeake City, OR Norfolk',
-				  ),
-			 ),
-		 );
-
-		$prev = array(
-			 array('Recycling/Park', array(13)),
-			 array('Nature Trail', array(30)),
-			 array('Union Mission', array(8, 15, 22, 29)),
-			 array('Freestyle Friday', array(23)),
-			 array('Skill Building', array(2, 7, 9, 12, 16, 19, 21, 28)),
-			 array('Community Walk', array(14)),
-			 array('Volunteer Meal On Wheels', array(1, 6, 20, 27)),
-		);
-
-		$day = array(
-			array('Redbox', array(1, 15, 29)),
-			array('Story Time Reading Circle', array(2)),
-			array('Make Tacos', array(5)),
-			array('Puzzles', array(6)),
-			array('Trivia', array(7, 21)),
-			array('Movie Day', array(8, 22)),
-			array('Pictionary', array(9)),
-			array('Scaveneger Hunt', array(12)),
-			array('Cooking Demo', array(13)),
-			array('Bingo for Prizes', array(14)),
-			array('Line Dance', array(16)),
-			array('Hip Hop Cardio', array(19)),
-			array('Arts and Crafts', array(20)),
-			array('Hangman', array(23)),
-			array('Happy Memorial Day (Center Closed)', array(26)),
-			array('Twister', array(27)),
-			array('Karaoke', array(28)),
-			array('Current Events', array(30)),
 		);
 		?>
 		<div class="clearfix">
-			<div class="month">May 2014: Residential</div>
+			<div class="month">June 2014: Residential</div>
 			<?php foreach ($events as $date => $evs): ?>
 				<dt>
 				<?php
-				$d = new DateTime('2014-05-'.substr($date, 3, 2));
+				$d = new DateTime('2014-06-'.substr($date, 3, 2));
 				echo $d->format('l, F j');
 				?>
 				</dt>
@@ -236,7 +165,34 @@
 				</dd>
 			<?php endforeach; ?>
 		</div>
-		<div style="margin-top: 30px;">
+	</div>
+	<div class="rightColumn">
+		<?php
+		$prev = array(
+			 array('Norfolk Zoo', array(3)),
+			 array('Keyboard Challenge', array(9)),
+			 array('Meal On Wheels (Chesapeake)', array(10,24)),
+			 array('Meal On Wheels (VA Beach) & Mount Trashmore', array(17)),
+			 array('Skill Building', array(2,4,6,11,16,20,23,25,27)),
+			 array('Freestyle Friday', array(13)),
+			 array('Community Walk', array(18,30)),
+			 array('Cinema Cafe', array(19)),
+			 array('Union Mission', array(5,12,26)),
+		);
+		$day = array(
+			 array('Social Activities', array(2,9,16,23,30)),
+			 array('Board Games', array(3)),
+			 array('Jam Fest', array(4,18)),
+			 array('Movie and Popcorn', array(5,12,19,26)),
+			 array('Current Events', array(6,13,20,27)),
+			 array('Comic View - Jokes and Riddles', array(10)),
+			 array('Bingo', array(11)),
+			 array('JPI Fun Day', array(14)),
+			 array('Games', array(17)),
+			 array('JPI Scrapbook', array(24)),
+		);
+		?>
+		<div class="clearfix">
 			<?php
 			foreach ($prev as $ev => $pr) {
 				foreach ($pr[1] as $d) {
@@ -245,10 +201,10 @@
 			}
 			ksort($prevDates);
 			?>
-			<div class="month">May 2014: Prevocational</div>
+			<div class="month">June 2014: Prevocational</div>
 			<?php foreach ($prevDates as $pd => $title): ?>
 				<dt><?php
-			$d = new DateTime('2014-05-'.$pd);
+			$d = new DateTime('2014-06-'.$pd);
 			echo $d->format('l, F j');
 				?></dt>
 				<dd>
@@ -256,7 +212,7 @@
 				</dd>
 			<?php endforeach; ?>
 		</div>
-		<div style="margin-top: 30px;">
+		<div class="clearfix" style="margin-top: 30px;">
 			<?php
 			foreach ($day as $ev => $pr) {
 				foreach ($pr[1] as $d) {
@@ -265,10 +221,10 @@
 			}
 			ksort($dayDates);
 			?>
-			<div class="month">May 2014: Day Program</div>
+			<div class="month">June 2014: Day Program</div>
 			<?php foreach ($dayDates as $pd => $title): ?>
 				<dt><?php
-			$d = new DateTime('2014-05-'.$pd);
+			$d = new DateTime('2014-06-'.$pd);
 			echo $d->format('l, F j');
 				?></dt>
 				<dd>
@@ -276,53 +232,5 @@
 				</dd>
 			<?php endforeach; ?>
 		</div>
-	</div>
-	<div class="rightColumn">
-		<h2>Employment Open House</h2>
-		<h3 style="margin-bottom:25px">
-			JOIN JUST PEOPLE, INC  FOR AN EMPLOYMENT OPEN HOUSE WITH ON THE SPOT INTERVIEWS SATURDAY, MAY 3rd, 2014 
-			FROM 10AM-3PM AT  1728 HEARTHSIDE COURT, CHESAPEAKE, VA 23321.  PLEASE BRING RESUME, DRIVERS LICENSE 
-			AND SOCIAL SECURITY CARD.  CALL OUR OFFICE AT 757.456.5347 FOR DETAILS OR QUESTIONS.
-		</h3>
-		<dl class="clearfix">
-			<dt>Position:</dt>
-			<dd>Direct Support Professional</dd>
-			<dt>Employer:</dt>
-			<dd>Just People Inc.</dd>
-			<dt>Location:</dt>
-			<dd>Chesapeake, 23320</dd>
-			<dt>Pay Rate:</dt>
-			<dd>Starting $9.00/hr to $10.00/hr</dd>
-		</dl>
-		<p style="margin:20px 0px;">
-			<strong>Job Description:</strong></br>
-			Provide living assistance to intellectual disabled adults whether residential, day program, 
-			pre-vocational programs or Transportation Dept.  Ensure the health, safety, and welfare 
-			of individuals.  Provide training and supervision.  Assist with program plans, including 
-			active treatment in the areas of self-help, community living, motor, communication, and 
-			pre-vocational skills, at the facilities and utilizing community resources.  Assist with 
-			care to include, but not limited to bathing, dressing, feeding, walking, positioning, 
-			restroom assistance, preparing meals, converse with individuals giving them assurance,
-			answering requests, housekeeping.  Administering medication.  Other duties as assigned.
-		</p>
-		<dl class="clearfix">
-			<dt>Shifts Available:</dt>
-			<dd>Day, Evening and overnight shifts working every other weekend as well as split day shifts.</dd>
-			<dt>Benefits Available:</dt>
-			<dd>Health, Vision and Dental, Life Insurance, 401 K</dd>
-			<dt>Qualifications:</dt>
-			<dd>
-				<ul>
-					<li>Must be 21 years or older High School Diploma or GED </li>
-					<li>First Aid and CPR Certifications </li>
-					<li>Possession of a valid driver's license </li>
-					<li>Current driving record </li>
-					<li>Must have your own vehicle </li>
-					<li>Current & valid automobile insurance</li>
-					<li>1+ years of related care giving experience</li>
-					<li>Basic computer skills</li>
-				</ul>
-			</dd>
-		</dl>
 	</div>
 </div>
