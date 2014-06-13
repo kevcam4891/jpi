@@ -1,4 +1,4 @@
-<?
+<?php
 $this->Html->script(array(
 	 '/slimbox/js/mootools',
 	 '/slimbox/js/slimbox'
@@ -18,13 +18,13 @@ $photos = array(
 	 '100_2222.jpg',
 	 '100_2737.jpg',
 	 '100_2922.jpg',
-	 '100_2973.jpg',
+	 //'100_2973.jpg',
 	 '100_2974.jpg',
-	 '100_2975.jpg',
+	 //'100_2975.jpg',
 	 '100_3092.jpg',
 	 '100_3276.jpg',
 	 '100_3303.jpg',
-	 '100_3311.jpg',
+	 //'100_3311.jpg',
 	 '100_3361.jpg',
 	 '100_3367.jpg',
 	 '100_3391.jpg',

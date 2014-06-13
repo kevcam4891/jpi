@@ -88,15 +88,6 @@ $this->Html->css(array(
 							life.”</p>
 					</div>
 				</div>
-				<div class="test">
-					<div class="photo">
-						<div class="" style="background: url('/img/home/test-photo-2.png') 9px 10px no-repeat;"></div>
-					</div>
-					<div class="text">
-						<p>"Since receiving residential services from JPI I have seen a great change in my daughter. JPI 
-							was placed in our lives at the right time."</p>
-					</div>
-				</div>
 			</div>
 		</div>
 	</div>
