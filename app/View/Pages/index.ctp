@@ -54,7 +54,7 @@ $this->Html->css(array(
 		<div id="LocationsVocational">
 			<h2>Pre-Vocational Location</h2>
 			<ul>
-				<li>1728 Hearthside Court<br/>Chesapeake, VA 23321</li>
+				<li>5005 Old Greenbrier Rd, Suite 104<br/>Chesapeake, VA 23320<br/>Phone: (757) 578-7241<br/>Fax: (757) 578-7242</li>
 			</ul>
 		</div>
 	</div>
