@@ -5,232 +5,76 @@
 <div id="events" class="clearfix">
 	<div class="leftColumn">
 		<?php
-		$events = array(
-			 '06-01' => array(
-				  array(
-						'title' => 'SO Exercise',
-						'time' => '5:00pm',
-				  )
-			 ),
-			 '06-03' => array(
-				  array(
-						'title' => 'Manicures',
-				  )
-			 ),
-			 '06-06' => array(
-				  array(
-						'title' => 'friendAble Social Club',
-				  ),
-				  array(
-						'title' => 'Bowling State Games',
-				  ),
-				  array(
-						'title' => 'Concert Series at Town Center',
-				  ),
-			 ),
-			 '06-07' => array(
-				  array(
-						'title' => 'Grills and Thrills',
-						'time' => '11:00a-1:30p',
-						'note' => '2210 Cedar Road. Bring Suit and towel.',
-				  ),
-			 ),
-			 '06-08' => array(
-				  array(
-						'title' => "Attend Church",
-				  ),
-				  array(
-						'title' => "Visit Family",
-				  ),
-				  array(
-						'title' => 'SO Exercise',
-						'time' => '5:00pm',
-				  )
-			 ),
-			 '06-11' => array(
-				  array(
-						'title' => 'Play board game of your choice',
-				  ),
-			 ),
-			 '06-13' => array(
-				  array(
-						'title' => 'Bowling State Games',
-				  ),
-				  array(
-						'title' => 'Concert Series at Town Center',
-				  ),
-			 ),
-			 '06-14' => array(
-				  array(
-						'title' => 'Just People Family Fun Day',
-						'time' => '12-3p',
-						'note' => '1728 Hearthside Ct E',
-				  ),
-			 ),
-			 '06-15' => array(
-				  array(
-						'title' => "Attend Church",
-				  ),
-				  array(
-						'title' => "Visit Family",
-				  ),
-				  array(
-						'title' => 'SO Exercise',
-						'time' => '5:00pm',
-				  )
-			 ),
-			 '06-17' => array(
-				  array(
-						'title' => 'Manicures',
-				  )
-			 ),
-			 '06-20' => array(
-				  array(
-						'title' => 'Special Olympics',
-				  ),
-				  array(
-						'title' => 'Dinner & Dance',
-						'time' => '6:15pm',
-						'note' => '1201 Club House Dr.'
-					),
-					array(
-						'title' => 'OR Fun Bowling'
-					)
-			 ),
-			 '06-21' => array(
-				  array(
-						'title' => 'Alley Cats Bowling',
-						'note' => '$1.69 AMF CH'
-				  ),
-				  array(
-						'title' => 'First Day of Summer',
-						'note' => 'Enjoy some ice cream!',
-				  )
-			 ),
-			 '06-22' => array(
-				  array(
-						'title' => 'Tides Game',
-						'time' => '12:15pm',
-						'note' => '$5 Parking per Vehicle'
-				  ),
-				  array(
-						'title' => 'SO Exercise',
-						'time' => '5:00pm',
-				  )
-			 ),
-			 '06-25' => array(
-				  array(
-						'title' => 'Play board game of your choice',
-				  ),
-			 ),
-			 '06-27' => array(
-				  array(
-						'title' => 'Concert Series',
-						'note' => 'Town Center at Greenbrier',
-						'time' => '6pm-8:30pm'
-				  ),
-					array(
-						'title' => 'OR Fun Bowling'
-					)
-			 ),
-			 '06-29' => array(
-				  array(
-						'title' => "Melvin's Birthday",
-				  ),
-				  array(
-						'title' => 'SO Exercise',
-						'time' => '5:00pm',
-				  )
-			 ),
+		$res = array(
+			 array(array('11-1', '11-15'), "Alley Cats Bowling", '12p-2p'),
+			 array('11-2', "Gail's Birthday"),
+			 array('11-2', "Skating Practice", '11am-1pm'),
+			 array('11-2', "Soccer Practice", '1:30pm'),
+			 array('11-5', "Golf Practice", '6p-7p'),
+			 array('11-13', "Chesapeake Animal Care Center", '10a-4p'),
+			 array(array('11-3', '11-12', '11-17', '11-26'), "Play Uno or Board Games with Friends"),
+			 array(array('11-4', '11-11'), "Cinema Cafe Greenbrier Mall"),
+			 array(array('11-11', '11-18', '11-25'), "Joyful Noise Club", "6:30p-8p"),
+			 array(array('11-4', '11-18', '11-22', '11-29'), "Norfolk Zoo", '10a-5p'),
+			 array(array('11-5', '11-19'), "Trim Fingernails and Toenails"),
+			 array(array('11-8'), "Camellia Show and Plant Show", false, "Norfolk Botanical Gardens"),
+			 array(array('11-8', '11-9'), "State Games Bowling @ Pinboys", '6pm', "Laskin Road"),
+			 array(array('11-9'), "Skating", '7am', "Haygood Skating Center"),
+			 array('11-22', "Grand Illumination Parade", '7p-9p', '(Free) Norfolk'),
+			 array(array('11-6', '11-24'), "Exercise at home"),
+			 array(array('11-7', '11-15', '11-21'), "Movie Night", '', "Rent a Movie from RedBox & enjoy fresh popped popcorn"),
+			 array('11-10', "Exercise at home"),
+			 array('11-14', "Thanksgiving Crafts at Home"),
+			 array('11-20', "Exercise at home"),
+			 array('11-23', "Holiday Craft Show", '11a-4p'),
+			 array('11-27', "HAPPY THANKSGIVING"),
+			 array('11-30', "Decorate Home for Christmas!!"),
+			 array(array('11-9', '11-16', '11-30'), "Decorate Home for Christmas!!"),
+			 array(array('11-9', '11-16', '11-30'), "Computer Time"),
 		);
+
+		$prev = array(
+			 array(array('11-3', '11-5', '11-7', '11-10', '11-12', '11-14', '11-17', '11-19', '11-21', '11-24', '11-26'), "Skill Building"),
+			 array(array('11-4',), "Walmart"),
+			 array(array('11-6', '11-20'), "Volunteer at Union Mission"),
+			 array(array('11-11', '11-25'), "Meels on Wheels (Chesapeake)"),
+			 array(array('11-13'), "Casa Di Constanzia Pizza"),
+			 array(array('11-18'), "Meels on Wheels (VA Beach)"),
+			 array(array('11-27'), "Thanksgiving"),
+			 array(array('11-28'), "Thanksgiving Break"),
+		);
+
+		$outings = array(
+			 array(array('11-3'), "Dollar Tree"),
+			 array(array('11-4', '11-10', '11-19'), "Rec Center"),
+			 array(array('11-5'), "Greenbrier Mall"),
+			 array(array('11-6', '11-13'), "Bowling"),
+			 array(array('11-11'), "Chrysler Museum"),
+			 array(array('11-12'), "Pet-go-round"),
+			 array(array('11-17'), "Virginia Dinosaur Museum"),
+			 array(array('11-18'), "McDonalds"),
+			 array(array('11-24'), "Goodwill Shopping"),
+			 array(array('11-25'), "Music Center"),
+			 array(array('11-26'), "Air Power Park"),
+			 array(array('11-27', '11-28'), "Closed (Holiday)"),
+		);
+
+		echo $this->element('events', array(
+			 'events' => $res,
+			 'title' => 'November 2014: Residential'
+		));
 		?>
-		<div class="clearfix">
-			<div class="month">June 2014: Residential</div>
-			<?php foreach ($events as $date => $evs): ?>
-				<dt>
-				<?php
-				$d = new DateTime('2014-06-'.substr($date, 3, 2));
-				echo $d->format('l, F j');
-				?>
-				</dt>
-				<dd>
-					<?php foreach ($evs as $ev): ?>
-						<?php if (!empty($ev['title'])): ?>
-							<div class="eventTitle"><?php echo $ev['title'] ?></div>
-						<?php endif; ?>
-						<?php if (!empty($ev['time'])): ?>
-							<div class="eventTime"><?php echo $ev['time'] ?></div>
-						<?php endif; ?>
-					<?php endforeach; ?>
-				</dd>
-			<?php endforeach; ?>
-		</div>
 	</div>
 	<div class="rightColumn">
 		<?php
-		$prev = array(
-			 array('Norfolk Zoo', array(3)),
-			 array('Keyboard Challenge', array(9)),
-			 array('Meal On Wheels (Chesapeake)', array(10,24)),
-			 array('Meal On Wheels (VA Beach) & Mount Trashmore', array(17)),
-			 array('Skill Building', array(2,4,6,11,16,20,23,25,27)),
-			 array('Freestyle Friday', array(13)),
-			 array('Community Walk', array(18,30)),
-			 array('Cinema Cafe', array(19)),
-			 array('Union Mission', array(5,12,26)),
-		);
-		$day = array(
-			 array('Social Activities', array(2,9,16,23,30)),
-			 array('Board Games', array(3)),
-			 array('Jam Fest', array(4,18)),
-			 array('Movie and Popcorn', array(5,12,19,26)),
-			 array('Current Events', array(6,13,20,27)),
-			 array('Comic View - Jokes and Riddles', array(10)),
-			 array('Bingo', array(11)),
-			 array('JPI Fun Day', array(14)),
-			 array('Games', array(17)),
-			 array('JPI Scrapbook', array(24)),
-		);
+		echo $this->element('events', array(
+			 'events' => $prev,
+			 'title' => 'November 2014: Prevocational Highlights'
+		));
+		echo $this->element('events', array(
+			 'events' => $outings,
+			 'title' => 'November 2014: Outings'
+		));
 		?>
-		<div class="clearfix">
-			<?php
-			foreach ($prev as $ev => $pr) {
-				foreach ($pr[1] as $d) {
-					$prevDates[$d] = $pr[0];
-				}
-			}
-			ksort($prevDates);
-			?>
-			<div class="month">June 2014: Prevocational</div>
-			<?php foreach ($prevDates as $pd => $title): ?>
-				<dt><?php
-			$d = new DateTime('2014-06-'.$pd);
-			echo $d->format('l, F j');
-				?></dt>
-				<dd>
-					<div class="eventTitle"><?php echo $title ?></div>
-				</dd>
-			<?php endforeach; ?>
-		</div>
-		<div class="clearfix" style="margin-top: 30px;">
-			<?php
-			foreach ($day as $ev => $pr) {
-				foreach ($pr[1] as $d) {
-					$dayDates[$d] = $pr[0];
-				}
-			}
-			ksort($dayDates);
-			?>
-			<div class="month">June 2014: Day Program</div>
-			<?php foreach ($dayDates as $pd => $title): ?>
-				<dt><?php
-			$d = new DateTime('2014-06-'.$pd);
-			echo $d->format('l, F j');
-				?></dt>
-				<dd>
-					<div class="eventTitle"><?php echo $title ?></div>
-				</dd>
-			<?php endforeach; ?>
-		</div>
 	</div>
 </div>
