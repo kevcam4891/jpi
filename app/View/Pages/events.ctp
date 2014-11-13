@@ -61,7 +61,7 @@
 
 		echo $this->element('events', array(
 			 'events' => $res,
-			 'title' => 'November 2014: Residential'
+			 'title' => 'Residential Activities'
 		));
 		?>
 	</div>
@@ -69,11 +69,11 @@
 		<?php
 		echo $this->element('events', array(
 			 'events' => $prev,
-			 'title' => 'November 2014: Prevocational Highlights'
+			 'title' => 'Pre-Vocational Activities'
 		));
 		echo $this->element('events', array(
 			 'events' => $outings,
-			 'title' => 'November 2014: Outings'
+			 'title' => 'Day Program Activities'
 		));
 		?>
 	</div>
