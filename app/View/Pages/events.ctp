@@ -19,7 +19,7 @@
 			array(array('12-6'), "Chespeake Rotart Christmas Parade", "6pm-8pm"),
 			array(array('12-6','12-20'), "Bowl Greenbrier AMF Lanes", "12p-2p"),
 			array(array('12-7','12-14','12-21','12-28'), "Basketball Practice skill", '1p-2p'),
-			array(array('12-8','10-22'), "Exercise at home."),
+			array(array('12-8','12-22'), "Exercise at home."),
 			array(array('12-11','12-18'), "Chesapeake Planetarium", '8pm'),
 			array(array('12-13'), "Suffolk Holiday Parade Downtown Suffolk", '7pm'),
 			array(array('12-13'), "Chiristmas Musical, Great Bridge Baptist Church"),
