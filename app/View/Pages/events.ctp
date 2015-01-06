@@ -33,21 +33,17 @@
 		);
 
 		$outings = array(
-			 array(array('12-1','12-30'), "Dollar Tree"),
-			 array(array('12-2'), "Shopping at Roses"),
-			 array(array('12-3','12-8','12-31'), "Recreation Center"),
-			 array(array('12-4','12-11','12-18'), "Bowling"),
-			 array(array('12-5','12-12'), "Community Integration"),
-			 array(array('12-9'), "Chrysler Center"),
-			 array(array('12-10','12-29'), "Pet-go-Round"),
-			 array(array('12-15'), "Five Below"),
-			 array(array('12-16'), "McDonalds"),
-			 array(array('12-17'), "Christmas Party"),
-			 array(array('12-19'), "MacArthur Mall"),
-			 array(array('12-22'), "Goodwill Shopping"),
-			 array(array('12-23'), "McArthur Mall"),
-			 array(array('12-24','12-25'), "Closed"),
-			 array(array('12-26'), "Library"),
+			 array(array('1-2','1-30'), "Greenbrier Mall"),
+			 array(array('1-5','1-13','1-21'), "Dollar Tree"),
+			 array(array('1-8','1-15','1-22','1-29'), "Bowling"),
+			 array(array('1-9','1-23'), "Library"),
+			 array(array('1-16','1-27'), "Recreation Center"),
+			 array(array('1-6'), "Chrysler Muesum"),
+			 array(array('1-7'), "Sports Museum"),
+			 array(array('1-14','1-26'), "McDonalds"),
+			 array(array('1-19','1-28'), "Pet-go-Round"),
+			 array(array('1-20'), "Indoor Mini Golf"),
+			 array(array('1-12'), "Sports Conplex"),
 		);
 
 		echo $this->element('events', array(

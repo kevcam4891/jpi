@@ -7,7 +7,7 @@
 		if (!is_array($evDates))
 			$evDates = (array) $evDates;
 		foreach ($evDates as $evd){
-			$d = new DateTime('2014-'.$evd);
+			$d = new DateTime('2015-'.$evd);
 			$df = $d->format('Y-m-d');
 			$eventsByDate[$df][] = array(
 				 'title' => $ev[1],
