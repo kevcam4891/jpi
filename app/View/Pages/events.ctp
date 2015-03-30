@@ -6,44 +6,58 @@
 	<div class="leftColumn">
 		<?php
 		$res = array(
-			array(array('1-2','1-9','1-16','1-23','1-30'), "Movie Night - Rent a movie from Red Box & enjoy fresh popped popcorn."),
-			array(array('1-3','1-17'), "Alley Cats Bowling", "12p-2p"),
-			array(array('1-4','1-11','1-18','1-25'), "Basketball Practice skill", '1p-2p'),
-			array(array('1-4','1-11','1-18','1-25'), "Half-court Basketball", '2p-3p'),
-			array(array('1-4','1-11','1-18','1-25'), "Full-court Basketball", '3p-4:30p'),
-			array(array('1-5','1-19','1-15','1-29'), "Uno & Board Games with friends"),
-			array(array('1-8','1-12','1-22','1-26'), "Connect Four with Friends!"),
-			array(array('1-9','1-23'), "Fun Bowling", "5:45p-7:30p"),
-			array(array('1-6','1-13','1-20','1-27'), "Cinema Cafe Greenbrier ($1.50 all shows)"),
-			array(array('1-7','1-21','12-31'), "Manicure & Pedicure"),
-			array(array('1-7','1-21'), "Enjoy a nice cup of hot chocolate w/ marshmallows."),
-			array(array('1-14','1-28'), "Exercise at home."),
-			array(array('1-13','1-20','1-27'), "Joyful Noises Club", '6:30p-8p'),
-			array(array('1-10','1-17','1-24','1-31'), "Lunar Golf"),
-			array(array('1-10','1-17','1-24'), "New Year - New Body: Gym"),
+			array(array('4-1','4-15','4-29'), "Manicure & Pedicure"),
+			array(array('4-2','4-16','4-30','4-6','4-20'), "Uno & Board Games with friends"),
+			array(array('4-9','4-23','4-13','4-27'), "Connect Four with Friends!"),
+			array(array('4-3','4-10','4-17','4-24'), "Movie Night - Rent a movie from Red Box & enjoy fresh popped popcorn."),
+			array(array('4-3','4-17'), "Future friendable Social Club ($$)"),
+			array(array('4-3','4-10','4-17','4-24'), "Bowling", "5:45p-8p"),
+			array(array('4-4','4-11','4-18','4-25'), "Nice brisk walk in nearby park (if weather permits)"),
+			array(array('4-4','4-11','4-12','4-18','4-25','4-26'), "Library for computer time"),
+			array(array('4-18'), "Party for the Planet, Virginia Zoo"),
+			array(array('4-25'), "Lunar Golf"),
+			array(array('4-7','4-14','4-21','4-28'), "Cinema Cafe Greenbrier ($1.50 all shows)"),
+			array(array('4-14','4-21','4-28'), "Joyful Noise Club", "6:30-8p"),
+			array(array('4-8','4-22'), "Exercise at home."),
+			array(array('4-5','4-12','4-19','4-26'), "Track and Field Practice", "1:30-3p"),
+			array(array('4-5','4-12','4-19','4-26'), "Softball Practice", "1:30-3p"),
+			array(array('4-5','4-12','4-19','4-26'), "Tennis Practice", "3-4:30p"),
+			array(array('4-19'), "Miss Abilities Pageant ($10)", '6-8:30p'),
+			array(array('4-22'), "GW Individual Birthday"),
+			array(array('4-22'), "Earth Day"),
+			array(array('4-3'), "Good Friday"),
+			array(array('4-5'), "Happy Easter!!"),
 		);
 
 		$prev = array(
-			 array(array('1-2','1-5','1-7','1-9','1-12','1-14','1-16','1-19','1-21','1-23','1-26','1-28','1-30'), "Skill Building"),
-			 array(array('1-6'), "Hampton Roads Naval Museum"),
-			 array(array('1-13','1-27'), "Meals on Wheels (Chesapeake)"),
-			 array(array('1-20'), "Meals on Wheels (VA Beach)"),
-			 array(array('1-8','1-22','1-29'), "Volunteer at Union Mission"),
-			 array(array('1-15'), "AMF Lanes Bowling"),
+			 array(array('4-1','4-3','4-6','4-8','4-10','4-13','4-15','4-17','4-20','4-22','4-24','4-27','4-29'), "Skill Building"),
+			 array(array('4-2','4-23'), "Union Mission"),
+			 array(array('4-3'), "Easter Celebration!"),
+			 array(array('4-7'), "Norfolk Zoo"),
+			 array(array('4-9'), "Chrysler Museum - Lunch @ Townpoint Park"),
+			 array(array('4-14','4-23','4-28'), "Volunteer - Meals on Wheels"),
+			 array(array('4-16'), "Douglas MacArthur Memorial Museum"),
+			 array(array('4-21'), "Chesapeake Animal Shelter - lunch at park"),
+			 array(array('4-30'), "Motorworld Pirate Golf"),
 		);
 
 		$outings = array(
-			 array(array('1-2','1-30'), "Greenbrier Mall"),
-			 array(array('1-5','1-13','1-21'), "Dollar Tree"),
-			 array(array('1-8','1-15','1-22','1-29'), "Bowling"),
-			 array(array('1-9','1-23'), "Library"),
-			 array(array('1-16','1-27'), "Recreation Center"),
-			 array(array('1-6'), "Chrysler Muesum"),
-			 array(array('1-7'), "Sports Museum"),
-			 array(array('1-14','1-26'), "McDonalds"),
-			 array(array('1-19','1-28'), "Pet-go-Round"),
-			 array(array('1-20'), "Indoor Mini Golf"),
-			 array(array('1-12'), "Sports Conplex"),
+			 array(array('4-1'), "MacArthur Memorial"),
+			 array(array('4-2'), "Simply Pets"),
+			 array(array('4-3','4-20'), "VA Beach Sportsplex"),
+			 array(array('4-7'), "Battlefield Park/Lunch"),
+			 array(array('4-9'), "Blue Gap Farm"),
+			 array(array('4-13'), "Hampton University Museum/Lunch"),
+			 array(array('4-14'), "Glass Studio/Chrysler Museum"),
+			 array(array('4-15'), "Ferry Ride Lunch @ Waterside ($1.75 per person)"),
+			 array(array('4-16'), "Animal Jungle"),
+			 array(array('4-22'), "Norfolk History Museum"),
+			 array(array('4-28'), "Mall Walking/Eat Lunch in Food Court"),
+			 array(array('4-23','4-24'), "Great Dismal Swamp Birding Festival"),
+			 array(array('4-8','4-21','4-27'), "Norfolk Zoo"),
+			 array(array('4-6','4-17'), "Dollar Tree"),
+			 array(array('4-10','4-29'), "Library"),
+			 array(array('4-30'), "Mt. Trashmore/Lunch @ the Park"),
 		);
 
 		echo $this->element('events', array(
@@ -60,7 +74,7 @@
 		));
 		echo $this->element('events', array(
 			 'events' => $outings,
-			 'title' => 'Day Program Activities'
+			 'title' => 'Milestones Day Program'
 		));
 		?>
 	</div>
