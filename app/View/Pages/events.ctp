@@ -69,7 +69,7 @@
 		//));
 		echo $this->element('events', array(
 			 'events' => $outings,
-			 'title' => 'Milestones Day Program'
+			 'title' => 'Milestones Group Day'
 		));
 		?>
 	</div>

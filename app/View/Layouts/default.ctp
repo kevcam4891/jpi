@@ -19,7 +19,6 @@
 						<table width="100%" border="0" cellspacing="0" cellpadding="0">
 							<tr>
 								<td class="copyright">&copy; 2009 Just People, Incorporated. All Rights Reserved.</td>
-								<td class="powered">Powered by <a href="mailto:info@kobellsystems.com">KobellSystems</a></td>
 							</tr>
 						</table>
 					</div>

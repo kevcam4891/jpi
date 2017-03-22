@@ -46,7 +46,6 @@ $this->Html->css(array(
 		<div id="LocationsGroup">
 			<h2>Group Home Locations</h2>
 			<ul>
-				<li>1259 Corkwood Circle<br />	Chesapeake, Va 23320</li>
 				<li>1225 Corkwood Circle<br />	Chesapeake, Va 23320</li>
 				<li>1288 Damyien Arch<br />Chesapeake, Va 23320</li>
 				<li>1238 Damyien Arch<br />Chesapeake, Va 23320</li>
@@ -63,7 +62,7 @@ $this->Html->css(array(
 		<div id="LocationsVocational">
 			<h2>Pre-Vocational Location</h2>
 			<ul>
-				<li>5005 Old Greenbrier Rd, Suite 104<br/>Chesapeake, VA 23320<br/>Phone: (757) 578-7241<br/>Fax: (757) 578-7242</li>
+				<li>2005 Old Greenbrier Rd, Suite 104<br/>Chesapeake, VA 23320<br/>Phone: (757) 578-7241<br/>Fax: (757) 578-7242</li>
 			</ul>
 		</div>
 	</div>

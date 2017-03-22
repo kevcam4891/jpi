@@ -19,20 +19,24 @@
 	ksort($eventsByDate);
 	?>
 	<?php foreach ($eventsByDate as $date => $evs): ?>
-		<dt>
-		<?php
-		$d = new DateTime($date);
-		echo $d->format('l, M j');
-		?>
-		</dt>
+	<?php if (true === false): ?>
+			<dt>
+			<?php
+			$d = new DateTime($date);
+			echo $d->format('l, M j');
+			?>
+			</dt>
+	<?php endif; ?>
 		<dd>
 			<?php foreach ($evs as $ev): ?>
 				<?php if (!empty($ev['title'])): ?>
 					<div class="eventTitle"><?php echo $ev['title'] ?></div>
 				<?php endif; ?>
-				<?php if (!empty($ev['time'])): ?>
-					<div class="eventTime"><?php echo $ev['time'] ?></div>
-				<?php endif; ?>
+		<?php if (true === false): ?>
+						<?php if (!empty($ev['time'])): ?>
+							<div class="eventTime"><?php echo $ev['time'] ?></div>
+						<?php endif; ?>
+		<?php endif; ?>
 			<?php endforeach; ?>
 		</dd>
 	<?php endforeach; ?>

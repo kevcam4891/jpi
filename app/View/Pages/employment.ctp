@@ -37,7 +37,7 @@
 	</div>
 	<div class="qualifications">
 		<h3>Benefits Available</h3>
-		<p>Health, Vision and Dental, Life Insurance, 401 K</p>
+		<p>Health, Vision and Dental, Paid Vacation, and AFLAC</p>
 	</div>
 	<div class="qualifications">
 		<h3>Qualifications</h3>
